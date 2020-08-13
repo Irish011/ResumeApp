@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3EC82"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/batman"
+    ></ImageView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Irish Ajaybharti"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/img"
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/desi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/name"
+        android:layout_marginTop="5dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/edu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/desi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/clg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GLS University"
+        android:textSize="25dp"
+        android:layout_below="@+id/edu"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B. Computer Applications"
+        android:textSize="20dp"
+        android:layout_below="@+id/clg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yr"
+        android:layout_below="@+id/clg"
+        android:text="2019-2022"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+                ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/courses"
+        android:layout_below="@id/yr"
+        android:text="Courses"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+            ></TextView>
+
+    <TextView
+        android:id="@+id/institute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/courses"
+        android:textSize="25dp"
+        android:text="What After College"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/program"
+        android:layout_below="@id/institute"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="Android App Development"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/year"
+        android:layout_below="@id/institute"
+        android:layout_alignParentRight="true"
+        android:text="2020"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        ></TextView>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/year"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="SUBMIT"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#4BA7B3"
+
+        ></Button>
+
+
+
+
+</RelativeLayout>
