@@ -139,14 +139,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"
         android:text="SUBMIT"
+        android:id="@+id/submit"
         android:textSize="23dp"
         android:textStyle="bold"
         android:textColor="#ffffff"
         android:background="#4BA7B3"
 
         ></Button>
-
-
-
 
 </RelativeLayout>
